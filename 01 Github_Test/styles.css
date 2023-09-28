@@ -17,3 +17,11 @@
     font-size:2rem;
     font-style: italic;
 }
+
+.text{
+    position: relative;
+    color: bisque;
+    background-color: aquamarine;
+    opacity: 0,5%;
+    font-size: 1rem;
+}
