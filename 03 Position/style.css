@@ -5,8 +5,8 @@
 
     .div1 {
         background-color: bisque;
-        width: 100px;
+        width: 100vw;
         position: fixed;
-        bottom: 5px;
+        top: 0px;
 
     }
