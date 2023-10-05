@@ -1,0 +1,13 @@
+.box {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.container{
+    background-color: green;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
