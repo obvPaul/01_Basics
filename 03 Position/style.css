@@ -4,8 +4,9 @@
     }
 
     .div1 {
-        background-color: blueviolet;
-        position: relative;
-        top: 25px;
-        left: 15px;
+        background-color: bisque;
+        width: 100px;
+        position: absolute;
+        bottom: 5px;
+
     }
