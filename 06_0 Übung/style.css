@@ -136,6 +136,7 @@ table {
   display: flex;
 }
 .box{
+    position: relative;
     background-color: green;
     border-style: solid;
     border-width: 1px;
