@@ -131,9 +131,10 @@ table {
 .container_header {
   background-color: yellow;
   border-style: solid;
-  border-bottom-width: 3px;
+  border-bottom-width: 2px;
   padding: 20px;
   display: flex;
+  flex-direction: row-reverse;
 }
 .box{
     position: relative;
