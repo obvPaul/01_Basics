@@ -7,3 +7,15 @@
     height: 400px;
     width: 200px;
 }
+
+.container_box {
+    background-color: green;
+    border-style: solid;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
