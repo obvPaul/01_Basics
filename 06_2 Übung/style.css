@@ -32,10 +32,20 @@
 }
 
 .container_bar {
-    position: relative;
-    border-style: solid;
-    border-width: 1px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.box_bar {
+  background-color: green;
+  border-style: solid;
+  border-width: 1px;
+  height: 40px;
+  width: 40px;
+  margin: 20px;
 }
