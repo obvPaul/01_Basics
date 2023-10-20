@@ -1,0 +1,9 @@
+.container_top {
+    background-color: aqua;
+    border-style: solid;
+    border-width: 1px;
+    margin: 40px;
+    position: relative;
+    height: 400px;
+    width: 200px;
+}
