@@ -30,3 +30,12 @@
   height: 40px;
   width: 40px;
 }
+
+.container_bar {
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
