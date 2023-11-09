@@ -1,0 +1,32 @@
+.container_left{
+    width: 50%;
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+
+}
+
+.container_right{
+   width: 50%;
+   background-color: blue;
+}
+
+.box {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+  
+}
+
+.wrapper{
+    display:flex;
+    background-color: orange;
+    height: 50vh;
+    width: 100%;
+}
+
+.out{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
