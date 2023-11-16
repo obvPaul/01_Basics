@@ -8,53 +8,15 @@
     justify-content: space-between;
 }
 
-.boxmain {
+.conbox1 {
     display: flex;
-    height: 100%;
-    align-items: center;
-    width: 90%;
-    background-color: azure;
 }
 
-.boxright {
+.conbox2 {
     display: flex;
-    height: 100%;
-    align-items: center;
-    width: 10%;
-    justify-content: center;
 }
 
-.boxmid {
-    display: flex;
-    height: 100%;
-    width: 70%;
-    align-items: center;
-    justify-content: center;
-}
-
-.boxleft {
-    display: felx;
-    height: 100%;
-    width: 30%;
-    align-items: center;
-}
-
-.boxmid div {
-    background-color: black;
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-}
-
-
-.boxleft div {
-    background-color: black;
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-}
-
-.boxright div {
+.box {
     background-color: black;
     height: 30px;
     width: 30px;
