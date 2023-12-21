@@ -10,7 +10,7 @@ console.log(name + " " + b + " " + a);
 
 // Schleifen
 
-for (let count = 0;count<10;count++){
+for (let count = 10;count<100;count++){
     console.log(count + " Andreas")
 }
 
