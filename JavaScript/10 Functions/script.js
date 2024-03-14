@@ -11,11 +11,23 @@ function supercalculator(a,b) {
     (a+b)/2*a
 }
 function printEasterDate(year) {
-    N = J - 1900;
-    A = N mod 19;
-    B = [(7A+1)/19];
-    M = (11A+4-B) mod 29;
-    Q = [N/4];
-    W = (N+Q+31-M) mod 7;
-    P = 25-M-W;
+    let N = year - 1900;
+    let A = N % 19;
+    let B = (7*A+1)/19;
+    let M = (11*A+4-B) % 29;
+    let Q = N/4;
+    let W = (N+Q+31-M) % 7;
+    let P = 25-M-W;
+
+    let result = Math.ceil(P);
+    if (result>0){
+        console.log("ostern..." + result + " April");
+    } else {
+        let date = 31 + result;
+        console.log(date + " März");
+    }
+
+    console.log(result);
 }
+
+printEasterDate(2024)
