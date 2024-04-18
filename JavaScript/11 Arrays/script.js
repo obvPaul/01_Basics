@@ -13,7 +13,7 @@ console.log(result);
 let arr2 = ["Susi", "Paul", "Hans"];
 
 console.log(
-  "Meine Freunde sind " + arr2[0] + ", " + arr2[1] + " und " + arr2[2]
+  "Meine Freunde sind " + arr2[0] + ", " + arr2[1] + "  und " + arr2[2]
 );
 
 arr2.push("Sepp");
