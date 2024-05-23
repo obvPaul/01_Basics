@@ -1,4 +1,4 @@
-const DNA = "ATGCTTAAGGTCAGCG";
+const DNA = "AAACCGGGGTT";
 
 let arr = DNA.split("");
 
@@ -8,13 +8,13 @@ let countG = 0;
 let countT = 0;
 
 for (i = 0; i < arr.length; i++) {
-  if (arr[i] == "A") {
+  if (arr[i] === "A") {
     countA = countA + 1;
-  } else if (arr[i] == "C") {
+  } else if (arr[i] === "C") {
     countC = countC + 1;
-  } else if (arr[i] == "G") {
+  } else if (arr[i] === "G") {
     countG = countG + 1;
-  } else if (arr[i] == "T") {
+  } else if (arr[i] === "T") {
     countT = countT + 1;
   }
 }
